@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="3" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="pkgSendMail.DragAndDrop">
+        <methods>
+          <include name="DragDrop"/>
+        </methods>
+      </class> <!-- pkgSendMail.DragAndDrop -->
+      <class name="pkgSendMail.addUsersVerify">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- pkgSendMail.addUsersVerify -->
+      <class name="pkgSendMail.DeleteUser">
+        <methods>
+          <include name="AddUsers_Page"/>
+          <include name="VerifyAddedUser"/>
+          <include name="CloseBrowser"/>
+          <include name="Sign_On"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- pkgSendMail.DeleteUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

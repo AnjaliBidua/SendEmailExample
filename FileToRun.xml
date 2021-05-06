@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="3">
+<!-- <listeners>
+	<listener class-name="pk.ExtentReport.Listeners"/>
+</listeners> -->
+	<test name="Test">
+		<classes>
+			<class name="pkgSendMail.addUsersVerify" />
+			<class name="pkgSendMail.DragAndDrop" />
+			<class name="pkgSendMail.DeleteUser" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
