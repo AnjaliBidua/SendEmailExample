@@ -58,7 +58,7 @@
  <mailAltConfig>true</mailAltConfig>
   <!-- Email Authentication(USername and Password) -->
  <mailuser>pepperparero@gmail.com</mailuser>
- <mailpassword>ufufmirchi</mailpassword>
+ <mailpassword>%{pswd}</mailpassword>
   <receivers>
  <!-- To Email address -->
  <receiver>pepperparero@gmail.com</receiver>
